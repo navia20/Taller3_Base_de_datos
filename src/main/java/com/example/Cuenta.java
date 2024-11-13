@@ -3,25 +3,25 @@ package com.example;
 import java.sql.Date;
 
 public class Cuenta {
-    private String numeroCuenta;
-    private double saldo;
+    private int numeroCuenta;
+    private int saldo;
     private Date fechaCreacion;
     private Cliente clienteAsociado;
 
     // Getters and Setters
-    public String getNumeroCuenta() {
+    public int getNumeroCuenta() {
         return numeroCuenta;
     }
 
-    public void setNumeroCuenta(String numeroCuenta) {
+    public void setNumeroCuenta(int numeroCuenta) {
         this.numeroCuenta = numeroCuenta;
     }
 
-    public double getSaldo() {
+    public int getSaldo() {
         return saldo;
     }
 
-    public void setSaldo(double saldo) {
+    public void setSaldo(int saldo) {
         this.saldo = saldo;
     }
 
